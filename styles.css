@@ -1,0 +1,608 @@
+/* *****Home Page Start***** */
+/* NAVBAR AND BOARD */
+.navbar-and-board{
+  background-image: url('images/building-small-size.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 12rem;
+}
+
+.logo{
+height: 6rem;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #EA353B;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}
+
+.top-navbar{
+  border-color: #EA353B;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: rgba(255,255,255, 0.9);
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.nav-link{
+  color: black;
+}
+
+.nav-link:hover{
+  color: #EA353B;
+}
+
+.dropdown-menu{
+  border-style: solid;
+  border-radius: 2rem;
+  border-color: #EA353B;
+  background-color: black;
+}
+
+.dropdown-item{
+  border-radius: 2rem;
+  color: #EA353B;
+}
+
+.dropdown-item:active{
+  border-radius: 2rem;
+  color: white;
+  background-color: #EA353B;
+}
+
+.navbar-toggler:hover{
+  background-color: #EA353B;
+}
+
+.board{
+  background-color: rgba(234, 53, 59, 0.4);
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: #EA353B;
+}
+
+.board-affiliation{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-affiliation span{
+  margin-left: 7rem;
+}
+
+.board-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.4rem;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-heading-span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.board-address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: monospace,courier;
+  color: white;
+}
+
+.board-bottom{
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: monospace,courier;
+  color: white;
+  margin-top: 2rem;
+}
+
+@media(max-width:280px){
+  .board-heading{
+    font-size: 1rem;
+  }
+  .board-address{
+    font-size: 1rem;
+  }
+  .board-affiliation span{
+    margin-left: 0;
+  }
+}
+
+@media(min-width:280px) and (max-width:320px){
+  .board-heading{
+    font-size: 2.5rem;
+  }
+  .board-address{
+    font-size: 1.8rem;
+  }
+  .board-affiliation span{
+    margin-left: 0;
+  }
+}
+
+@media(min-width:320px){
+  .board{
+      background-color: rgba(234, 53, 59, 0.4);
+      border-radius: 2rem;
+      border-style: solid;
+      border-color: #EA353B;
+  }
+  .navbar-and-board{
+    background-image: url('images/mobile-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-bottom: 5.45rem;
+  }
+  .board-affiliation span{
+    margin-left: 0;
+  }
+}
+
+@media(min-width:600px){
+  .board{
+  background-color: rgba(234, 53, 59, 0.4);
+  margin-left: 6rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: #EA353B;
+}
+.navbar-and-board{
+  background-image: url('images/building-small-size.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 12rem;
+}
+/* .board-affiliation span{
+  margin-left: 7rem;
+} */
+}
+
+@media(min-width:320px) and (max-width:320px){
+  .board-heading{
+    font-size: 3rem;
+  }
+  .board-affiliation span{
+    margin-left: 0;
+  }
+}
+
+
+/* Welcome heading with school video */
+.welcome{
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: #EA353B;
+  border-radius: 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+.home-school-video{
+  height: 100%;
+  width: 75%;
+}
+
+/* Roll of Honor */
+.roll-of-honor{
+  border-radius: 0.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgba(234, 53, 59, 0.9);
+}
+
+.results-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.results-yearly-right{
+  padding-bottom: 2rem;
+}
+
+.results-yearly-left{
+  padding-bottom: 2rem;
+}
+
+.results-img{
+  width: 10rem;
+  height: 10rem;
+}
+
+@media(min-width:280px){
+  .results-yearly-left{
+  text-align: center;
+  }
+.results-yearly-right{
+text-align: center;
+}
+}
+
+
+/* Testimonials */
+.testimonials{
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  text-align: center;
+}
+
+.testimonials-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #EA353B;
+}
+
+.testimonial-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+
+.testimonial-content {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+}
+
+.testimonial-buttons{
+  background-color: #EA353B;
+}
+
+.testimonial-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+  height: 15rem;
+}
+
+@media(max-width:340px){
+  .testimonial-img{
+    width: 15rem;
+    height: 10rem;
+  }
+}
+
+/* Footer */
+.footer{
+  margin-top: 1rem;
+  /* border-radius: 0.5rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3rem;
+  background-color: #2D2D2D;
+}
+
+.follow-us{
+  color: white;
+}
+
+.footer-logo{
+  height: 8rem;
+}
+
+.footer-logo:hover{
+  transform: scale(1.1);
+}
+
+.social-media{
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.social-icon{
+  margin: 1rem;
+  font-size: 2.5rem;
+}
+
+.copyright-text{
+  color: white;
+}
+
+.developer-text{
+  color: white;
+}
+/********Home Page End********* */
+
+
+/* *****Individual Page Start***** */
+.individual-page-top-div{
+  background-image: url('images/building-small-size.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.individual-page-headings{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-size: 5rem;
+  margin: 0;
+  color: #EA353B;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* *****Individual Page End***** */
+
+.introductory-div{
+  margin: 2rem;
+  display: flex;
+}
+
+.introductory-div img{
+  width: 40%;
+}
+
+.introductory-div p{
+  font-size: 1.5rem;
+  background-color: #EA353B;
+  color: white;
+  padding: 1.5rem;
+  font-family: cursive;
+  width: 55%;
+  position: relative;
+  margin: 1rem 0;
+  margin-left: 1rem;
+  border-radius: 50% / 10%;
+  text-align: center;
+}
+
+.individual-page-grey-div{
+  font-size: 1.2rem;
+  background-color: lightgrey;
+  margin: 1.5rem;
+}
+
+.individual-page-grey-div p{
+  padding: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
+}
+
+.individual-page-grey-div h2{
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+
+/* About us */
+@media(min-width:280px) and (max-width:992px){
+  .individual-page-headings{
+    font-size: 3.7rem;
+  }
+  .introductory-div{
+    display:unset;
+    margin: auto;
+  }
+  .introductory-div img{
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .introductory-div p{
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* From director's desk */
+.author-name{
+  text-align: right;
+}
+
+/* Rules and regulations */
+.individual-page-grey-div h3{
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+/* Admission Form */
+.individual-page-grey-div a{
+  text-decoration: none;
+}
+
+/* Infrastructure */
+.individual-page-grey-div img{
+  width: 40%;
+}
+
+.infrastructure-individual-heading-parent-div{
+  display: flex;
+}
+
+.infrastructure-individual-heading-parent-div img{
+  margin: 1rem;
+}
+
+.infrastructure-motto{
+  text-align: center;
+}
+
+
+@media(min-width:320px) and (max-width:992px){
+  .infrastructure-individual-heading-parent-div{
+    display: unset;
+  }
+  .infrastructure-individual-heading-parent-div img{
+    width: 95%;
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-left: 2.5%;
+  }
+}
+
+/* Picture gallery */
+.picture-gallery-individual-pair{
+  display: flex;
+  text-align: center;
+  margin: 2rem;
+}
+
+.picture-gallery-individual-pair img{
+  width: 60%;
+}
+
+.individual-picture-div{
+  margin: 1.5rem;
+}
+
+.individual-picture-div .btn{
+  background-color: white;
+}
+
+.individual-picture-div .btn:hover, .btn:active{
+  background-color: #EA353B;
+}
+
+@media(min-width:280px) and (max-width:1025px){
+  .picture-gallery-individual-pair{
+    display: unset;
+    margin-top: 1rem;
+  }
+  .picture-gallery-individual-pair img{
+    width: 95%;
+  }
+  .individual-picture-div{
+    margin-bottom: 3rem;
+  }
+}
+
+/* Virtual tour */
+.picture-gallery-individual-album{
+  text-align: center;
+}
+
+.picture-gallery-individual-album img{
+  margin: 2rem;
+}
+
+@media(min-width:280px) and (max-width:713px){
+  .picture-gallery-individual-album img{
+    width: 95%;
+    margin: unset;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Video Gallery */
+.video-gallery-individual-pair{
+  display: flex;
+  text-align: center;
+}
+
+.video-gallery-individual-pair video {
+  width: 80%;
+  height: 100%;
+  margin: 2rem;
+  /* padding-bottom: 5rem; */
+}
+
+.video-gallery-last-child{
+  padding-bottom: 6rem;
+}
+
+@media(min-width:280px) and (max-width:650px){
+  .video-gallery-individual-pair{
+    display: unset;
+  }
+  .video-gallery-individual-pair video {
+    margin: 1rem;
+  }
+}
+
+/* Contact us */
+.mail{
+  text-decoration: none;
+  color: white;
+}
+
+.mail:hover{
+  text-decoration: underline;
+  color: inherit;
+}
+
+@media(min-width:280px) and (max-width:992px){
+  .school-map{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 1rem;
+  }
+}
+
+/* Twitter */
+.twitter-timeline{
+  text-align: center;
+}
+
+/* Daily updates carousel */
+.daily-updates-buttons span{
+  background-color: black;
+}
+
+
+.twitter-daily-updates{
+  display: flex;
+}
